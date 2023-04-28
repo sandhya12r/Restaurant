@@ -36,3 +36,66 @@ What things you need to install the software and how to install them.
 Eclipse for Java EE
 MySQL Command Line
 ```
+
+### Installing
+A step by step series of examples that how to get a development env running.
+
+Steps to Install Eclipse for Java
+
+```
+Download adn install eclipse from eclipse.org
+Change the perspective of Eclipse from JAVA to JAVA EE
+```
+
+Steps to Install MySQL Command Line
+
+```
+Download adn install mysql from mysql.com
+Open and type the default password "root"
+```
+
+## 🔧 Running the tests <a name = "tests"></a>
+Run this program using tomcat server 9 in java eclipse. Run as 'run on server'.
+
+### Break down into end to end tests
+There might be a scenario when the project will give an error, in that case u need to create database in mySQL command line.
+The commands are here
+
+Create the database first-
+```
+create database restaurantDb;
+  use restaurantDb;
+```
+
+create table members for signup-
+```
+CREATE TABLE members (
+       first_name VARCHAR(45) NOT NULL,
+       last_name VARCHAR(45) NOT NULL,
+       email VARCHAR(45) NOT NULL,
+       uname VARCHAR(45) NOT NULL,
+       password VARCHAR(45) NOT NULL,
+       PRIMARY KEY (uname));
+```
+
+create table items to add menu-
+```
+CREATE TABLE items (
+       id INT NOT NULL,
+       item_name VARCHAR(45) NOT NULL,
+       price_rupee INT NOT NULL,
+       PRIMARY KEY (id));
+```
+
+## 🎈 Usage <a name="usage"></a>
+Open the system, it has very friendly user interface. It shows project explorer at left, where all our projects will be shown. we can import projects from github by file> import> java project.
+
+
+## ✍️ Authors <a name = "authors"></a>
+- [@Sandhya](https://github.com/sandhya12r) - FSD
+
+See also the list of [contributors](https://github.com/sandhya12r/Restaurant/contributors) who participated in this project.
+
+## 🎉 Acknowledgements <a name = "acknowledgement"></a>
+- SkillLync
+- [YouTube](https://www.youtube.com/watch?v=Ftytq7XF_Ec&t=1309s)
