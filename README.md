@@ -72,7 +72,7 @@ Open and type the default password "root"
 <!-- ![CreateDish](public\CreateDish.png) -->
 <img src="public\Checkout.png" alt= “” width="1000">
 
-### Edit Dish *Admin Feature* (GIF)
+### Edit Dish *Admin Feature*
 <!-- ![EditDish](public\EditCartProcess.gif) -->
 <img src="public\Admin.png" alt= “” width="1000">
 <img src="public\AdminPage.png" alt= “” width="1000">
