@@ -16,6 +16,7 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Deployment](#deployment)
+- [Project View](#projectView)
 - [Usage](#usage)
 - [Flow Chart](#flowchart)
 - [TODO](../TODO.md)
@@ -53,6 +54,28 @@ Steps to Install MySQL Command Line
 Download adn install mysql from mysql.com
 Open and type the default password "root"
 ```
+
+## 🎈 Project View <a name="projectView"></a>
+### Login Page
+<!-- ![LoginPage](public\Login_Page.png) -->
+<img src="public\Signup.png" alt= “” width="1000">
+
+### User Login *User*
+<!-- ![LoginProcess](public\GoogleLoginProcess.gif) -->
+<img src="public\res.png" alt= “” width="1000">
+
+### Cart *User Feature*
+<!-- ![AddToCart](public\AddToCartProcess.gif) -->
+<img src="public\Cart.png" alt= “” width="1000">
+
+### Checkout *Admin Feature*
+<!-- ![CreateDish](public\CreateDish.png) -->
+<img src="public\Checkout.png" alt= “” width="1000">
+
+### Edit Dish *Admin Feature* (GIF)
+<!-- ![EditDish](public\EditCartProcess.gif) -->
+<img src="public\Admin.png" alt= “” width="1000">
+<img src="public\AdminPage.png" alt= “” width="1000">
 
 ## 🔧 Running the tests <a name = "tests"></a>
 Run this program using tomcat server 9 in java eclipse. Run as 'run on server'.
